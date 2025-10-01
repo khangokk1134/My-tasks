@@ -43,13 +43,13 @@ class ProfileScreen extends StatelessWidget {
           children: [
             const CircleAvatar(
               radius: 60,
-              backgroundImage: NetworkImage(
-                'https://i.pravatar.cc/300', // ảnh avatar demo
+              backgroundImage: AssetImage(
+                'assets/images/myimage.jpg', // ảnh avatar demo
               ),
             ),
             const SizedBox(height: 20),
             const Text(
-              'Johan Smith',
+              'Trần Minh Khang',
               style: TextStyle(
                 fontSize: 22,
                 fontWeight: FontWeight.bold,
@@ -57,7 +57,7 @@ class ProfileScreen extends StatelessWidget {
             ),
             const SizedBox(height: 8),
             const Text(
-              'California, USA',
+              'Long Sơn, Việt Nam',
               style: TextStyle(
                 fontSize: 16,
                 color: Colors.grey,
